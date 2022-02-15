@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Podstawowe pojęcia grafika komputerowa</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="styles/box.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Podstawowe Pojęcia o grafice komputerowej</h1>
+            </div>
+
+            <div class="container2">
+                <div class="left_panel">
+                    <div id="computer_graphics"><a class = "clicked" href="#">Co to jest grafika komupterowa?</a></div>
+                    <div id="pixel"><a class="click" href="#">Co to pixel?</a></div>
+                    <div id="resolution"><a class="click" href="#">Rozdzielczość obrazu</a></div>
+                    <div id="scaling"><a class="click" href="#">Skalowanie obrazu</a></div>
+                    <div id="compression"><a class="click" href="#">Kompresja</a></div>
+                    <div id="graphics_mode"><a class="click" href="#">Tryby Graficzne</a></div>
+                    <div id="standart"><a class="click" href="#">Różnica między standardami</a></div>
+                    <div id="4:3"><a class="click" href="#">Różnica między 4:3 a 16:9</a></div>
+                    <div id="GWR"><a class="click" href="#">Grafika wektorowa i rastrowa</a></div>
+                    <div id="RGB"><a class="click" href="#">CMYK i RGB co to takiego?</a></div>
+                    <div id="DPI"><a class="click" href="#">Co to jest DPI?</a></div>
+                    <div id="FOR"><a class="click" href="#">Formaty plików</a></div>
+                </div>
+                <div class="right_panel">
+                    <div class="box visible" id="computer_graphics_box">
+                        <h1>Co to jest grafika komupterowa?</h1>
+                        <div class="text_box">
+                            <p>
+                                Jeden z ważnych działów w informatyce. Zajmuje się zastosowaniem systemów komputerowch od generowania i przetwarzania obrazów oraz do wizualizacji różnych danych; 
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="box hidden" id="pixel_box">
+                        <h1>Piksel</h1>
+                        <div class="text_box">
+                            <p>
+                                Pikesl to najmniejszy punkt na wyświetlonym ekranie. Może przyjmować tylko jeden jednolity kolor 
+                            </p>
+                        </div>
+                        <div class="images">
+                            <img src="img/pixel.png" width="20vh" height="20vh">
+                        </div>
+
+                        <div class="text_box">
+                            <p>
+                                tak wygląda pixel w powiększeniu ale w swoich rzeczywistych wymiarach wygląda tak:
+                            </p>
+                        </div>
+
+                        <div class="images">
+                            <img src="img/pixel.png">
+                        </div>
+
+
+                    </div>
+                    <div class="box hidden" id="resolution_box">
+                        <h1>Rozdzielczość obrazu</h1>
+                        <div class="text_box">
+                            <p>
+                                Rozdzielczość obrazu składa się z pikseli, które tworzą obraz
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="scaling_box">
+                        <h1>Skalowanie obrazu</h1>
+                        <div class="text_box">
+                            <p>
+                                Skalowanie obrazu polega na zmiejszeniu lub powiększeniu obrazu.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="compression_box">
+                        <h1>Kompresja</h1>
+                        <div class="text_box">
+                            <p>
+                                Kompresja może być stratna i bestratna, polega na zmiejszeniu rozmiaru plików graficznych przez zmiejszenie objętości
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="graphics_mode_box">
+                        <h1>Tryby Graficzane</h1>
+                        <div class="text_box">
+                            <p>
+                                Są to tryby pracy karty graficznej. Odpowiadają one za rozdzielczość i ilość kolorów.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="standart_box">
+                        <h1>Różnica między standardami</h1>
+                        <div class="text_box">
+                            <p>
+                                <ul>
+                                    <li>VGA -> 640x480</li>
+                                    <li>HDTV 720p -> 1280x720</li>
+                                    <li>HDTV -> 1336x768</li>
+                                    <li>HDTV 1080P -> 1920x1080</li>
+                                    <li>4K -> 4096x2048</li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="4:3_box">
+                        <h1>Różnica między 4:3 a 16:9</h1>
+                        <div class="text_box">
+                            <p>
+                                Proporcja obrazy to różnica między szerokościa i wysokością. Główna różnicą między 4:3 a 16:9 jest to że na obrazie 16:9 można zobaczyć więcej w informacji w poziomie, a na obrazie 4:3 w pionie
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="GWR_box">
+                        <h1>Różnica między grafiką wektorową a graifką rastrową</h1>
+                        <div class="text_box">
+                            <p>
+                                Grafika rastrowa jest tworzona z pikesli o tej samej wielkości wyświetlania na monitorach. Dobrze się kompresuje ale najczęsciej to jest kompresja stratna. Powiekszenie grafiki rastrowej może spowodować pikselozę
+                            </p>
+                        </div>
+                        <div class="text_box">
+                            <p>
+                                Grafika wektorowa składa się z różnych kształtów geometrycznych i przez różne linie krzywe. Ta grafika jest bestrana można ją dowoli skalować w góre i w dół bez stracenia jakości i szczegółow.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="RGB_box">
+                        <h1>RGB I CMYK</h1>
+                        <div class="text_box">
+                            <p>
+                                RGB -> jest to przestrzeń barw która tworzy kolor o oparciu mieszania trzech związków światła RED,GREEN I BLUE
+                            </p>
+                        </div>
+                        <div class="text_box">
+                            <p>
+                                CMYK -> przeciwiestwie od RGB to CMYK stosujemy w druku. CMYK oznacza Cyjan Magenta Yellow i Czarny, mieszają się za każdym razem ze sobą poszczególne ilośći czterech barw
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="DPI_box">
+                        <h1>DPI</h1>
+                        <div class="text_box">
+                            <p>
+                                Jest to parametr który określa ile punktów obrazu zmieści sie w rzędzie o dlugości 1 cala.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box hidden" id="FOR_box">
+                        <h1>Formaty plików</h1>
+                        <div class="text_box">
+                            <p>
+                                <ul>
+                                    <li>
+                                        JPG: Najpopularniejszy format plików który jest używany w sieci. Mają też również mały rozmmiar plików przez swoją kompresje stratną
+                                    </li>
+                                    <li>
+                                        PNG: Zapisuje grafike rastrową obsługuje przezroczystość i używa kompresji bezstratnej.
+                                    </li>
+                                    <li>
+                                        GIF: Jest ograniczona do 256 kolorów. Gif jest najczęsście wykorzystywany do animacji obrazu
+                                    </li>
+                                    <li>
+                                        BMP: Są to duże pliki które są powiązane z plikami graficznmi na Windowsie
+                                    </li>
+                                    <li>
+                                        Tiff: Elastyczny i łatwy w rozbudowie format pliku obsługuje specyficzne przestrzeni kolorów. Obsłguje przezroczytość i wykorzystywany może być do robienia logo firm.
+                                    </li>
+                                    <li>
+                                        SVG: Służy do zapisywania grafiki wektorowej
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <script src="index.js"></script>
+        <script src="scripts/link_hover.js"></script>
+    </body>
+</html>

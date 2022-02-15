@@ -1,0 +1,52 @@
+.visible{
+    visibility: visible;
+    
+    /*20.5%*/
+
+    position: absolute;
+    left: -100%;
+    z-index: -1;
+
+    width: 79%;
+    height: 90vh;
+
+    background-color: #0e213e;
+    border-left: 5px solid #050b15;
+
+
+    color: white;
+
+    animation: start 1.5s ease-out 0.1s both;
+}
+
+.hidden{
+    position: absolute;
+    left: 20.5%;
+    z-index: -2;
+
+    width: 79%;
+    height: 90vh;
+
+    background-color: #0e213e;
+    border-left: 5px solid #050b15;
+    color: white;
+
+    animation: end 1s linear both;
+}
+
+@keyframes start {
+    0%{
+        left: -100%;
+    }
+
+    100%{
+        left: 20.5%;
+    }
+}
+
+
+@keyframes end {
+    100%{
+        left: 200%;
+    }
+}

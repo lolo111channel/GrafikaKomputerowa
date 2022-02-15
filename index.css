@@ -1,0 +1,118 @@
+body{
+    overflow-x: hidden;
+
+    margin: 0;
+    background-color: black;
+}
+
+
+.left_panel div{
+    color: white;
+    transition: color 0.5s;
+}
+
+.left_panel div .click{
+    color: white;
+    text-decoration: none;
+
+    font-size: 1.2em;
+    font-weight: bold;
+
+    transition: color 0.5s;
+}
+.left_panel div:hover .click{
+    color: gray;
+}
+
+.clicked{
+    color: gray;
+
+    text-decoration: none;
+
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.header{
+    flex: 1 1 10vh;
+
+    color: white;
+    background-color:  #050b15;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+}
+
+.header h1{
+    margin-left: 10vh;
+}
+
+.container2{
+    display: flex;
+    flex-flow: row;
+
+    justify-content: space-between;
+
+    flex: 1 1 90vh;
+    width: 100%;
+       
+}
+
+.left_panel{
+    width: 20%;
+
+    background-color:  #0e213e;
+    border-right: 5px solid  #050b15;
+
+    display: flex;
+    text-align: center;
+    flex-flow: column nowrap;
+    gap: 1vh;
+
+
+    font-size: 1.25em;
+}
+
+.left_panel ul{
+    list-style-type: none;
+}
+
+.left_panel div{
+    margin-top: 2vh;
+}
+
+.right_panel{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+
+.text_box{
+    display: flex;
+    justify-content: center;
+
+    width: 80%;
+
+    font-size: 1.4em;
+}
